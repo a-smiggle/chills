@@ -30,9 +30,10 @@
     ]
   },
   "scripts": {
+    "vscode:prepublish": "npm run bundle",
     "clean": "rimraf ./lib",
-    "compile": "pnpm run clean && tsc -p ./ --noEmit false --module commonjs --outDir lib",
-    "bundle": "pnpm run start && pnpm run compile && copyfiles -u 1 src/snippets/* lib/",
+    "compile": "npm run clean && tsc -p ./ --noEmit false --module commonjs --outDir lib",
+    "bundle": "npm run start && npm run compile && copyfiles -u 1 src/snippets/* lib/",
     "start": "rimraf src/snippets/generated.code-snippets && esno src/index.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --ext js,ts,tsx .",
