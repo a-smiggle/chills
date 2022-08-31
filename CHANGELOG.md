@@ -17,3 +17,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.1]
 
 - Adds logo.
+
+## [0.2.2]
+
+- Fix package.json to include logo correclty.
