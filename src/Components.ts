@@ -302,7 +302,7 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
     {
-      title: "Modal: Login",
+      title: "Login Modal",
       prefix: "ch-modalLogin",
       file: "../docs/snippets/Modal/ModalLogin.jsx",
       body: undefined,
@@ -310,7 +310,7 @@ const Components: ComponentType = {
       scope: BASE_SCOPE,
     },
     {
-      title: "Modal: Login TS",
+      title: "Login Modal TS",
       prefix: "ch-windowMac",
       file: "../docs/snippets/Modal/ModalLoginTS.tsx",
       body: undefined,
@@ -378,8 +378,8 @@ const Components: ComponentType = {
       scope: BASE_SCOPE,
     },
     {
-      title: "Progress",
-      prefix: "ch-progress",
+      title: "Progress TS",
+      prefix: "ch-progressTS",
       file: "../docs/snippets/Progress/ProgressTS.tsx",
       body: undefined,
       description: "",
