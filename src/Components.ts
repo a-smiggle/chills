@@ -23,6 +23,14 @@ const Components: ComponentType = {
       description: "",
       scope: BASE_SCOPE,
     },
+    {
+      title: "Accordion",
+      prefix: "ch-accordionTS",
+      file: "../docs/snippets/Accordion/AccordionTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
   ],
   alerts: [
     {
@@ -164,6 +172,14 @@ const Components: ComponentType = {
       body: undefined,
       description: "",
       scope: BASE_SCOPE,
+    },
+    {
+      title: "Breadcrumb TS",
+      prefix: "ch-breadcrumbTS",
+      file: "../docs/snippets/Breadcrumb/BreadcrumbTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
     },
   ],
   buttons: [

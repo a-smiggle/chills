@@ -20,4 +20,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.2.2]
 
-- Fix package.json to include logo correclty.
+- Fix package.json to include logo correctly.
+
+## [0.2.3]
+
+- Add Accordion TS
+- Correct multiple components to have data passed to them.
+- Added TS version for above edited components.

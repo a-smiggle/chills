@@ -64,6 +64,7 @@ The current implemented components and their prefixes are:
 
 | Prefix                 | Component            |
 | ---------------------- | -------------------- |
+| ch-accordionTS         | Accordion            |
 | ch-alertTS             | Alert                |
 | ch-errorAlertTS        | Error Alert          |
 | ch-infoAlertTS         | Info Alert           |
@@ -72,6 +73,7 @@ The current implemented components and their prefixes are:
 | ch-avatarTS            | Avatar               |
 | ch-avatarClipTS        | Avatar Clip          |
 | ch-avatarPlaceholderTS | Avatar Placeholder   |
+| ch-breadcrumbTS        | Breadcrumbs          |
 | ch-buttonTS            | Button               |
 | ch-iconButtonTS        | Icon Button          |
 | ch-buttonIconTS        | Button with Icon     |

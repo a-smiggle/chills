@@ -2,7 +2,7 @@
   "name": "chills",
   "displayName": "chills",
   "description": "Functional React TailwindCSS components.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "icon": "images/logo.png",
   "publisher": "a-smiggle",
   "license": "MIT",
@@ -15,6 +15,17 @@
   },
   "categories": [
     "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "react",
+    "Next.JS",
+    "next",
+    "customizable",
+    "javascript",
+    "typescript",
+    "tailwind",
+    "tailwindCSS"
   ],
   "contributes": {
     "snippets": [
