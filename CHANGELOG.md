@@ -13,3 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Correct Mistakes in src/Components.ts
 - Adds Documentation
 - Change title of Login Modal.
+
+## [0.2.1]
+
+- Adds logo.
