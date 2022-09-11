@@ -2,10 +2,10 @@ import React from "react";
 
 /**
  * Example:
- * <Code code={["Hello", `   World`]} />
+ * <CodeTS code={["Hello", `   World`]} />
  */
 
-export default function Code({ code }) {
+export default function CodeTS({ code }: { code: string[] }) {
   return (
     <div className="relative pb-4 rounded-lg bg-gray-800 text-slate-300 border-2 border-transparent hover:border-gray-300 transition-colors duration-300 cursor-text">
       <div className="flex justify-end pb-2 gap-2">

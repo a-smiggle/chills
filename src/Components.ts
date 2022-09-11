@@ -276,6 +276,14 @@ const Components: ComponentType = {
       scope: BASE_SCOPE,
     },
     {
+      title: "Code Mockup",
+      prefix: "ch-codeTS",
+      file: "../docs/snippets/Mockup/CodeTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+    {
       title: "Phone Mockup",
       prefix: "ch-phone",
       file: "../docs/snippets/Mockup/Phone.jsx",

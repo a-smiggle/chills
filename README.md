@@ -79,6 +79,7 @@ The current implemented components and their prefixes are:
 | ch-buttonIconTS        | Button with Icon     |
 | ch-dropdownTS          | Dropdown             |
 | ch-dropdownIconTS      | Dropdown with Icon   |
+| ch-codeTS              | Code Mockup          |
 | ch-modalTS             | Modal                |
 | ch-modalLoginTS        | Login Modal          |
 | ch-progressTS          | Progress             |
