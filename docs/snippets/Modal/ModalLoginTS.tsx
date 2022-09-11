@@ -20,7 +20,12 @@ export default function ModalLoginTS({
   toggle: Dispatch<SetStateAction<boolean>>;
 }) {
   // Providers
-  const PROVIDERS = { google: true, github: true, apple: true, facebook: true };
+  const PROVIDERS: { [key: string]: boolean } = {
+    google: true,
+    github: true,
+    apple: true,
+    facebook: true,
+  };
 
   // Variables
   const [email, setEmail] = useState("");

@@ -31,3 +31,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.4]
 
 - Create TS Code Mockup.
+
+## [0.2.5]
+
+- Adds examples into snippets.
+
+## [0.2.6]
+
+- Fix type errors
