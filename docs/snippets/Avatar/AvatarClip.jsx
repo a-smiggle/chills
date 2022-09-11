@@ -1,6 +1,11 @@
 import React from "react";
 
-export default function AvatarClip({ image, title, variant }) {
+/**
+ * Example:
+ * <AvatarClip variant="triangle" image="https://api.lorem.space/image/face?w=150&h=150" title="Avatar Clip" link="#"/>
+ */
+
+export default function AvatarClip({ link, image, title, variant }) {
   const STYLES = {
     height: "h-16",
     width: "w-16",
@@ -28,7 +33,7 @@ export default function AvatarClip({ image, title, variant }) {
   };
 
   return (
-    <a href="#" title={title ?? "Avatar"} className="block relative">
+    <a href={link} title={title ?? "Avatar"} className="block relative">
       <img
         alt="profile"
         src={image || "https://api.lorem.space/image/face?w=150&h=150"}

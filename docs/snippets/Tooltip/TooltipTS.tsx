@@ -33,12 +33,12 @@ export default function TooltipTS({
     left: "before:content-[''] before:absolute before:top-1/2 before:left-[100%] before:-translate-y-1/2 before:border-8 before:border-y-transparent before:border-r-transparent before:border-l-blue-700",
   };
   return (
-    <span
-      className={`absolute hidden px-2 py-1 group-hover:flex ${
+    <div
+      className={`absolute hidden min-w-[8rem] px-2 py-1 group-hover:flex ${
         POSITION[position || "top"]
       } ${ARROW[position || "top"]}`}
     >
       {children}
-    </span>
+    </div>
   );
 }

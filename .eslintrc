@@ -32,7 +32,12 @@
         "plugin:prettier/recommended"
       ],
       "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": ["./tsconfig.json", "./docs/tsconfig.json"]
+      },
+      "settings": {
+        "next": {
+          "rootDir": "./docs/"
+        }
       },
       "rules": {
         "prettier/prettier": [
@@ -48,6 +53,7 @@
         "react/jsx-props-no-spreading": "off", // _app.tsx uses spread operator and also, react-hook-form
         "react-hooks/exhaustive-deps": "off", // Incorrectly report needed dependency with Next.js router
         "@next/next/no-img-element": "off", // We currently not using next/image because it isn't supported with SSG mode
+        "@next/next/no-html-link-for-pages": ["error", "docs/pages/"],
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "import/prefer-default-export": "off", // Named export is easier to refactor automatically
         "tailwindcss/classnames-order": [

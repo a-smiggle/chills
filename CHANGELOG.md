@@ -27,3 +27,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Add Accordion TS
 - Correct multiple components to have data passed to them.
 - Added TS version for above edited components.
+
+## [0.2.4]
+
+- Create TS Code Mockup.

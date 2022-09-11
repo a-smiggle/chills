@@ -9,6 +9,17 @@ import React from "react";
   ];
 */
 
+/**
+ * Example:
+ * <StepXTS
+    steps={[
+      { title: "Start", completed: true },
+      { title: "Middle", completed: false },
+      { title: "End", completed: false },
+    ]}
+  />
+ */
+
 export type StepData = {
   title: string;
   completed: boolean;
@@ -16,8 +27,8 @@ export type StepData = {
 
 export default function StepsX({ steps }: { steps: StepData[] }) {
   return (
-    <div className="relative flex w-full justify-between px-8">
-      <div className="absolute inset-x-10 top-5 z-10  h-2 bg-gray-300">
+    <div className="relative flex w-full justify-between">
+      <div className="absolute inset-x-2 top-5 z-10 h-2 bg-gray-300">
         <div
           style={{
             width: `${

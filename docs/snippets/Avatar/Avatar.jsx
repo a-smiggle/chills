@@ -1,6 +1,11 @@
 import React from "react";
 
-export default function Avatar({ image, title }) {
+/**
+ * Example:
+ * <Avatar image="https://api.lorem.space/image/face?w=150&h=150" title="Avatar" link="#"/>
+ */
+
+export default function Avatar({ link, image, title }) {
   const STYLES = {
     height: "h-16",
     width: "w-16",
@@ -8,7 +13,7 @@ export default function Avatar({ image, title }) {
   };
 
   return (
-    <a href="#" title={title ?? "Avatar"} className="block relative">
+    <a href={link} title={title ?? "Avatar"} className="block relative">
       <img
         alt="profile"
         src={image || "https://api.lorem.space/image/face?w=150&h=150"}

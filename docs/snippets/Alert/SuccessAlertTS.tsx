@@ -1,5 +1,21 @@
 import React from "react";
 
+/**
+ * Example:
+ * <SuccessAlertTS
+    title="Alert"
+    details="I am an Alert."
+    timestamp="Tue, 06 Sep 2022 22:57:04 GMT"
+    actions={
+      <div className="w-fit">
+        <button className="bg-red-500 text-white rounded hover:bg-red-400 active:scale-90 transition-all p-1">
+          Close
+        </button>
+      </div>
+    }
+  />
+ */
+
 export default function SuccessAlertTS({
   title,
   details,
@@ -16,8 +32,9 @@ export default function SuccessAlertTS({
       maxWidth: "max-w-sm",
       maxHeight: "max-h-32",
       height: "h-16",
-      color: "bg-green-300/25 border-green-700",
-      text: "text-green-700",
+      color:
+        "bg-green-300/25 border-green-700 dark:bg-green-700/25 dark:border-green-300",
+      text: "text-green-700 dark:text-green-300",
       shadow: "shadow-lg",
       shape: "rounded-md",
     },

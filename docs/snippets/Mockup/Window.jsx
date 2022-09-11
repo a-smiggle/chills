@@ -1,10 +1,19 @@
 import React from "react";
 
+/**
+ * Example:
+ * <Window>
+    <div className="flex flex-col justify-center items-center w-full h-full">
+      Hello
+    </div>
+  </Window>
+ */
+
 export default function Window({ children }) {
   return (
-    <div className="relative rounded-lg bg-white text-black border-2 border-black h-full">
-      <div className="pt-4 border-b-2 border-black bg-blue-400">
-        <div className="flex justify-end pr-4 pb-4 gap-2">
+    <div className="relative rounded-lg bg-white dark:bg-slate-800 dark:text-white text-black border-2 border-black h-full">
+      <div className="pt-2 border-b-2 border-black  rounded-t-lg bg-blue-400">
+        <div className="flex justify-end pr-4 pb-2 gap-2">
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -41,7 +50,7 @@ export default function Window({ children }) {
         </div>
       </div>
 
-      <div className="p-4">{children}</div>
+      <div className="w-full h-full">{children}</div>
     </div>
   );
 }

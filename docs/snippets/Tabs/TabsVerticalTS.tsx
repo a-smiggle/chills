@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
+
+/**
+ * Example:
+ *  <TabsVerticalTS
+      stretched
+      data={[
+        { title: "Tab1", content: "Tab1 content" },
+        { title: "Tab2", content: "Tab2 content" },
+      ]}
+    />
+ */
 
 export type TabData = {
   title: string;
-  content: any;
+  content: ReactNode;
 };
 
 export default function TabsVertical({
@@ -10,7 +21,7 @@ export default function TabsVertical({
   stretched,
 }: {
   data: TabData[];
-  stretched: boolean;
+  stretched?: boolean;
 }) {
   const [selected, setSelected] = useState(0);
 
@@ -48,6 +59,7 @@ export default function TabsVertical({
         if (index === selected) {
           return item.content;
         }
+        return null;
       })}
     </div>
   );

@@ -7,8 +7,8 @@ import React from "react";
 
 export default function CodeTS({ code }: { code: string[] }) {
   return (
-    <div className="relative pb-4 rounded-lg bg-gray-800 text-slate-300 border-2 border-transparent hover:border-gray-300 transition-colors duration-300 cursor-text">
-      <div className="flex justify-end pb-2 gap-2">
+    <div className="relative cursor-text rounded-lg border-2 border-transparent bg-gray-800 pb-4 text-slate-300 transition-colors duration-300 hover:border-gray-300">
+      <div className="flex justify-end gap-2 pb-2">
         <svg
           stroke="currentColor"
           fill="currentColor"
@@ -52,7 +52,7 @@ export default function CodeTS({ code }: { code: string[] }) {
         </pre>
       ))}
 
-      <div className="pl-2 animate-[pulse_1000ms_infinite]">
+      <div className="animate-[pulse_1000ms_infinite] pl-2">
         <svg
           stroke="currentColor"
           fill="none"

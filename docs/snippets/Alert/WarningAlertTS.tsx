@@ -1,5 +1,21 @@
 import React from "react";
 
+/**
+ * Example:
+ * <WarningAlertTS
+    title="Alert"
+    details="I am an Alert."
+    timestamp="Tue, 06 Sep 2022 22:57:04 GMT"
+    actions={
+      <div className="w-fit">
+        <button className="bg-red-500 text-white rounded hover:bg-red-400 active:scale-90 transition-all p-1">
+          Close
+        </button>
+      </div>
+    }
+  />
+ */
+
 export default function WarningAlertTS({
   title,
   details,
@@ -16,8 +32,9 @@ export default function WarningAlertTS({
       maxWidth: "max-w-sm",
       maxHeight: "max-h-32",
       height: "h-16",
-      color: "bg-yellow-300/25 border-yellow-700",
-      text: "text-yellow-700",
+      color:
+        "bg-yellow-300/25 dark:bg-yellow-700/25 border-yellow-700 dark:border-yellow-300",
+      text: "text-yellow-700 dark:text-yellow-300",
       shadow: "shadow-lg",
       shape: "rounded-md",
     },

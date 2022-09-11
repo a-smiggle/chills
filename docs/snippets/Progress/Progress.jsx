@@ -1,8 +1,13 @@
 import React from "react";
 
+/**
+ * Example:
+ * <Progress progress={10} showPercent />
+ */
+
 export default function Progress({ progress, showPercent, title }) {
   return (
-    <div className="w-72">
+    <div className="w-full">
       {title || showPercent ? (
         <div className="pb-4">
           {title ? (

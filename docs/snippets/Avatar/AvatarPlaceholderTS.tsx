@@ -1,9 +1,20 @@
 import React from "react";
 
+/**
+ * Example:
+ * <AvatarPlaceholderTS
+      placeholder="PH"
+        title="PH"
+        link="#"
+      />
+ */
+
 export default function AvatarPlaceholderTS({
+  link,
   placeholder,
   title,
 }: {
+  link?: string;
   placeholder: string;
   title?: string;
 }) {
@@ -16,7 +27,7 @@ export default function AvatarPlaceholderTS({
   };
 
   return (
-    <a href="#" title={title ?? "Avatar"} className="relative block">
+    <a href={link} title={title ?? "Avatar"} className="relative block">
       <div
         className={`${STYLES.height} ${STYLES.width} ${STYLES.shape} ${STYLES.color} grid place-items-center`}
       >

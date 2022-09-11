@@ -1,10 +1,17 @@
 import React from "react";
 
-export default function AvatarClip({
+/**
+ * Example:
+ * <AvatarClipTS variant="triangle" image="https://api.lorem.space/image/face?w=150&h=150" title="Avatar Clip" link="#"/>
+ */
+
+export default function AvatarClipTS({
+  link,
   image,
   title,
   variant,
 }: {
+  link?: string;
   image: string;
   title?: string;
   variant:
@@ -49,7 +56,7 @@ export default function AvatarClip({
   };
 
   return (
-    <a href="#" title={title ?? "Avatar"} className="relative block">
+    <a href={link} title={title ?? "Avatar"} className="relative block">
       <img
         alt="profile"
         src={image}

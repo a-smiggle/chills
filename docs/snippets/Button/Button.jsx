@@ -2,9 +2,9 @@
 // Replace blue with required color
 import React from "react";
 
-export default function Button({ type, onClick, disabled }) {
+export default function Button({ type, onClick, disabled, children }) {
   const STYLES = {
-    base: "py-2 px-4 w-full transition ease-in duration-200 focus:outline-none enabled:focus:ring-2 enabled:focus:ring-offset-2 enabled:active:scale-90 disabled:cursor-not-allowed",
+    base: "py-2 px-4 w-fit transition ease-in duration-200 focus:outline-none enabled:focus:ring-2 enabled:focus:ring-offset-2 enabled:active:scale-90 disabled:cursor-not-allowed",
     shape: "rounded-full",
     shadow: "shadow-md",
     color:
@@ -15,11 +15,11 @@ export default function Button({ type, onClick, disabled }) {
   return (
     <button
       type={type ?? "button"}
-      onClick={() => onClick}
+      onClick={onClick}
       disabled={disabled}
       className={`${STYLES.base} ${STYLES.shadow} ${STYLES.color} ${STYLES.shape} ${STYLES.text}`}
     >
-      Button
+      {children}
     </button>
   );
 }

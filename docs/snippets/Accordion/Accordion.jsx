@@ -1,11 +1,39 @@
 import React, { useState } from "react";
 
-export default function Accordion() {
+/**
+ * Example Data:
+ * const ITEMS = [
+    {
+      title: "Title 1",
+      content:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
+    },
+    { title: "Title 2", content: <div>Title2 Content</div> },
+    { title: "Title 3", content: <a>Title3 Content</a> },
+  ];
+ */
+
+/**
+ * Example usage:
+ * <Accordion
+        data={[
+          {
+            title: "Title 1",
+            content:
+              "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
+          },
+          { title: "Title 2", content: <div>Title2 Content</div> },
+          { title: "Title 3", content: <a>Title3 Content</a> },
+        ]}
+      />
+  */
+
+export default function Accordion({ data }) {
   const STYLES = {
     main: {
       maxWidth: "max-w-lg",
       shape: "rounded-xl",
-      border: "border-2 border-gray-300",
+      border: "",
       color: "", //Will affect content background
       text: "", //Will affect content text
     },
@@ -15,21 +43,11 @@ export default function Accordion() {
     },
   };
 
-  const ITEMS = [
-    {
-      title: "Title 1",
-      content:
-        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
-    },
-    { title: "Title 2", content: <div>Title2 Content</div> },
-    { title: "Title 3", content: <a>Title3 Content</a> },
-  ];
-
   return (
     <div
-      className={`w-fit ${STYLES.main.maxWidth} ${STYLES.main.shape} ${STYLES.main.border} ${STYLES.main.color} ${STYLES.main.text}`}
+      className={`w-full ${STYLES.main.maxWidth} ${STYLES.main.shape} ${STYLES.main.border} ${STYLES.main.color} ${STYLES.main.text}`}
     >
-      {ITEMS.map((item) => {
+      {data.map((item) => {
         const [open, setOpen] = useState(false);
         return (
           <React.Fragment key={item.title}>

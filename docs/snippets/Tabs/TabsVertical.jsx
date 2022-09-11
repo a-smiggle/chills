@@ -1,5 +1,16 @@
 import React, { useState } from "react";
 
+/**
+ * Example:
+ *  <TabsVertical
+      stretched
+      data={[
+        { title: "Tab1", content: "Tab1 content" },
+        { title: "Tab2", content: "Tab2 content" },
+      ]}
+    />
+ */
+
 export default function TabsVertical({ data, stretched }) {
   const [selected, setSelected] = useState(0);
 

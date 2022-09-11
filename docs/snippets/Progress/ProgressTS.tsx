@@ -1,5 +1,10 @@
 import React from "react";
 
+/**
+ * Example:
+ * <ProgressTS progress={10} showPercent />
+ */
+
 export default function ProgressTS({
   progress,
   showPercent,
@@ -10,16 +15,18 @@ export default function ProgressTS({
   title?: string;
 }) {
   return (
-    <div className="w-72">
+    <div className="w-full">
       {title || showPercent ? (
-        <div className="pb-4">
+        <div className="flex justify-between pb-4">
           {title ? (
-            <span className="rounded bg-green-500 p-2 font-medium text-white">
+            <span className="rounded bg-green-500 px-1 font-medium text-white">
               {title}
             </span>
-          ) : null}
+          ) : (
+            <div></div>
+          )}
           {showPercent ? (
-            <span className="float-right rounded bg-green-500 px-2 py-1 font-medium text-white">
+            <span className="float-right rounded bg-green-500 px-1 font-medium text-white">
               {progress} %
             </span>
           ) : null}

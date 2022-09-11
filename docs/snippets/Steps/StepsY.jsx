@@ -8,9 +8,21 @@ import React from "react";
     { title: "Completed", completed: false },
   ];
  */
+
+/**
+ * Example:
+ * <StepsY
+    steps={[
+      { title: "Start", completed: true },
+      { title: "Middle", completed: false },
+      { title: "End", completed: false },
+    ]}
+  />
+ */
+
 export default function StepsY({ steps }) {
   return (
-    <div className="relative flex flex-col justify-between w-fit h-full py-8">
+    <div className="relative flex flex-col justify-between w-fit h-full py-2">
       <div className="absolute left-4 top-8 w-2 h-[calc(100%-4rem)] bg-gray-300 z-10">
         <div
           style={{

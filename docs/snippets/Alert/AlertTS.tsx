@@ -1,4 +1,20 @@
-import React from "react";
+import React, { ReactNode } from "react";
+
+/**
+ * Example:
+ * <AlertTS
+    title="Alert"
+    details="I am an Alert."
+    timestamp="Tue, 06 Sep 2022 22:57:04 GMT"
+    actions={
+      <div className="w-fit">
+        <button className="bg-red-500 text-white rounded hover:bg-red-400 active:scale-90 transition-all p-1">
+          Close
+        </button>
+      </div>
+    }
+  />
+ */
 
 export default function AlertTS({
   title,
@@ -9,7 +25,7 @@ export default function AlertTS({
   title: string;
   details?: string;
   timestamp?: string;
-  actions?: JSX.Element;
+  actions?: ReactNode;
 }) {
   const STYLES = {
     main: {
@@ -34,9 +50,9 @@ export default function AlertTS({
             <div>{details}</div>
           </div>
         </div>
-        <div className="flex-col justify-between">
+        <div className="flex flex-col justify-between">
           <div className="pt-1 text-xs">{timestamp}</div>
-          <div className="float-right flex-row justify-between">{actions}</div>
+          <div className="my-auto flex flex-row justify-end">{actions}</div>
         </div>
       </div>
     </div>

@@ -1,9 +1,16 @@
 import React from "react";
 
+/**
+ * Example:
+ * <AvatarTS image="https://api.lorem.space/image/face?w=150&h=150" title="Avatar" link="#"/>
+ */
+
 export default function AvatarTS({
+  link,
   image,
   title,
 }: {
+  link?: string;
   image: string;
   title?: string;
 }) {
@@ -14,7 +21,7 @@ export default function AvatarTS({
   };
 
   return (
-    <a href="#" title={title ?? "Avatar"} className="relative block">
+    <a href={link} title={title ?? "Avatar"} className="relative block">
       <img
         alt="profile"
         src={image}

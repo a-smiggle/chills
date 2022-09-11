@@ -9,6 +9,17 @@ import React from "react";
   ];
  */
 
+/**
+ * Example:
+ * <StepsYTS
+    steps={[
+      { title: "Start", completed: true },
+      { title: "Middle", completed: false },
+      { title: "End", completed: false },
+    ]}
+  />
+ */
+
 export type StepData = {
   title: string;
   completed: boolean;
@@ -16,7 +27,7 @@ export type StepData = {
 
 export default function StepsY({ steps }: { steps: StepData[] }) {
   return (
-    <div className="relative flex h-full w-fit flex-col justify-between py-8">
+    <div className="relative flex h-full w-fit flex-col justify-between py-2">
       <div className="absolute left-4 top-8 z-10 h-[calc(100%-4rem)] w-2 bg-gray-300">
         <div
           style={{

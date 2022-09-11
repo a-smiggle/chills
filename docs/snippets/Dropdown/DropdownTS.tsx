@@ -10,12 +10,35 @@ import React, { useState } from "react";
   ];
  */
 
+/**
+ * Example:
+ *  <DropdownTS
+      title="Dropdown"
+      data={[
+        {
+          title: "Item 1",
+          link: "#",
+        },
+        {
+          title: "Item 2",
+          link: "#",
+        },
+      ]}
+    />
+ */
+
 export type DropdownData = {
   title: string;
   link: string;
 };
 
-export default function DropdownTS({ data }: { data: DropdownData[] }) {
+export default function DropdownTS({
+  data,
+  title,
+}: {
+  data: DropdownData[];
+  title: string;
+}) {
   const [open, setOpen] = useState(false);
 
   const STYLES = {
@@ -43,7 +66,7 @@ export default function DropdownTS({ data }: { data: DropdownData[] }) {
     },
   };
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block w-fit text-left">
       <div>
         <button
           onClick={() => setOpen(!open)}
@@ -52,7 +75,7 @@ export default function DropdownTS({ data }: { data: DropdownData[] }) {
           className={`${STYLES.button.shadow} ${STYLES.button.shape} ${STYLES.button.color} ${STYLES.button.text} ${STYLES.button.base}`}
           id="options-menu"
         >
-          Menu Button
+          {title}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className={`h-5 w-5 transition-all duration-300 ${

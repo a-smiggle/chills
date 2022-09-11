@@ -9,10 +9,21 @@ import React from "react";
   ];
  */
 
+/**
+ * Example:
+ * <StepsX
+  steps={[
+    { title: "Start", completed: true },
+    { title: "Middle", completed: false },
+    { title: "End", completed: false },
+  ]}
+/>
+*/
+
 export default function StepsX({ steps }) {
   return (
-    <div className="relative flex justify-between w-full px-8">
-      <div className="absolute left-10 right-10 top-5  h-2 bg-gray-300 z-10">
+    <div className="relative flex justify-between w-full">
+      <div className="absolute inset-x-2 top-5 z-10 h-2 bg-gray-300">
         <div
           style={{
             width: `${

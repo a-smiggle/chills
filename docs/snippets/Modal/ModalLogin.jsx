@@ -1,5 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 
+/**
+ * Example:
+ * <Button onClick={() => setOpen(true)}>Login</Button>
+   <ModalLogin open={open} toggle={setOpen} />
+ */
+
 export default function ModalLogin({ open, toggle }) {
   // Providers
   const PROVIDERS = { google: true, github: true, apple: true, facebook: true };
@@ -542,9 +548,9 @@ export default function ModalLogin({ open, toggle }) {
       <Fragment>
         <div
           onClick={() => toggle(!open)}
-          className="fixed inset-0 bg-gray-400 cursor-pointer"
+          className="fixed inset-0 z-[100] bg-gray-700/90 cursor-pointer"
         ></div>
-        <div className="flex justify-center items-center my-auto ">
+        <div className="z-[110] fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] flex justify-center items-center">
           <div className="max-w-xs md:max-w-5xl z-10 bg-white dark:bg-gray-800 text-gray-800 dark:text-white p-4 shadow-lg rounded-lg flex-col md:w-96">
             {ModalData()}
           </div>

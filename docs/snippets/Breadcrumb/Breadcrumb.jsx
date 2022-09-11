@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 
-export default function Breadcrumb() {
-  const MENU = [
+/**
+ * Example Data:
+ * [
     { title: "Home", link: "/" },
     {
       title: "Gallery",
@@ -9,15 +10,28 @@ export default function Breadcrumb() {
     },
     { title: "Top Picks", link: "/gallery/top_picks" },
   ];
+ */
 
+/**
+ * Example:
+ * <BreadcrumbTS
+        data={[
+          { title: "Home", link: "/" },
+          { title: "Snippets", link: "/snippets/accordion" },
+          { title: "Breadcrumbs", link: "/snippets/breadcrumb" },
+        ]}
+      />
+  */
+
+export default function Breadcrumb({ data }) {
   return (
     <ul className="flex flex-row gap-2">
-      {MENU.map((item, index) => (
+      {data.map((item, index) => (
         <li
           key={`Breadcrumb: ${item.title}`}
           className="flex flex-row items-center gap-2"
         >
-          {MENU.length - 1 === index ? (
+          {data.length - 1 === index ? (
             <a>{item.title}</a>
           ) : (
             <Fragment>

@@ -250,7 +250,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className={`${open ? "hidden" : ""} md:hidden`}>
+      <div className={`${open ? "" : "hidden"} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {MENU.map((item) => {
             if (item.subMenu && item.subMenu.length > 0) {

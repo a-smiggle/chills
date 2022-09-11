@@ -17,6 +17,6 @@
     "strictNullChecks": true,
     "target": "ESNext"
   },
-  "exclude": ["node_modules", "components", "docs", "jest", "**/__tests__/*"],
+  "exclude": ["node_modules", "docs"],
   "compileOnSave": false
 }
