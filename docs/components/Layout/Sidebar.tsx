@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, ReactNode, useEffect, useState } from "react";
 
 export default function Sidenav() {
   // Get current location
@@ -199,7 +199,13 @@ export default function Sidenav() {
       "hover:text-gray-800 hover:bg-gray-100 flex items-center p-2 mb-2 transition-colors dark:hover:text-white dark:hover:bg-gray-600 duration-200  text-gray-800 dark:text-gray-100 rounded-lg bg-gray-100 dark:bg-gray-600",
   };
 
-  function accordion(menuItem) {
+  function accordion(menuItem: {
+    title: string;
+    link: string;
+    icon?: ReactNode;
+    subMenu?: { title: string; link: string; icon?: ReactNode }[];
+  }) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [open, setOpen] = useState(false);
 
     return (
@@ -231,7 +237,7 @@ export default function Sidenav() {
             open ? " h-fit" : "h-0 -translate-y-2 scale-y-0 opacity-0"
           } origin-top px-4 transition duration-300 ease-out`}
         >
-          {menuItem.subMenu.map((item) => (
+          {menuItem.subMenu?.map((item) => (
             <Link key={`Sidebar: ${item.title}`} href={item.link}>
               <a
                 className={

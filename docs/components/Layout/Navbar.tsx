@@ -46,7 +46,11 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   // Dropdown
-  function dropdown(menuItem) {
+  function dropdown(menuItem: {
+    title: string;
+    link: string;
+    subMenu?: { title: string; link: string }[];
+  }) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [openD, setOpenD] = useState(false);
 
@@ -122,7 +126,7 @@ export default function Navbar() {
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
-            {menuItem.subMenu.map((item) => (
+            {menuItem.subMenu?.map((item) => (
               <a
                 key={`MenuItem:${item.title}`}
                 href={item.link}
@@ -147,7 +151,11 @@ export default function Navbar() {
   }
 
   // Accordion for mobile menu
-  function accordion(menuItem) {
+  function accordion(menuItem: {
+    title: string;
+    link: string;
+    subMenu?: { title: string; link: string }[];
+  }) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [openA, setOpenA] = useState(false);
 
@@ -178,7 +186,7 @@ export default function Navbar() {
             openA ? " h-fit" : "h-0 -translate-y-2 scale-y-0 opacity-0"
           } origin-top px-4 transition duration-300 ease-out`}
         >
-          {menuItem.subMenu.map((item) => (
+          {menuItem.subMenu?.map((item) => (
             <Link href={item.link} key={`mobileMenu: ${item.title}`}>
               <a
                 className={

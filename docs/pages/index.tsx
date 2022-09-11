@@ -14,17 +14,16 @@ import StepsX from "@snippets/Steps/StepsXTS";
 import StepsY from "@snippets/Steps/StepsYTS";
 import TooltipTS from "@snippets/Tooltip/TooltipTS";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { GrAdd } from "react-icons/gr";
 
 import Layout from "../components/Layout";
 
 export default function index() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [modal, setModal] = useState(false);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [loginModal, setLoginModal] = useState(false);
-  useEffect(() => {
-    console.log(modal);
-  }, [modal]);
   return (
     <Layout>
       <div className="mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl flex-col items-center justify-center p-4">

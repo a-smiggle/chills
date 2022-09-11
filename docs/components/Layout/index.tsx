@@ -1,10 +1,11 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { ReactNode } from "react";
 
 import Navbar from "./Navbar";
 import Sidenav from "./Sidebar";
 
-export default function index({ children }) {
+export default function index({ children }: { children: ReactNode }) {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter();
 
   if (router.pathname.includes("/snippets")) {
