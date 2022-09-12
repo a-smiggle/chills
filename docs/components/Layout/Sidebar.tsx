@@ -258,7 +258,7 @@ export default function Sidenav() {
 
   return (
     <div
-      className={`relative flex flex-col overflow-auto sm:flex-row sm:justify-around ${STYLES.background} ${STYLES.width} ${STYLES.height}`}
+      className={`relative hidden md:flex flex-col overflow-auto sm:flex-row sm:justify-around ${STYLES.background} ${STYLES.width} ${STYLES.height}`}
     >
       <nav className="w-full px-2">
         {BRAND !== "" ? <h1 className={STYLES.brand}>{BRAND}</h1> : <br />}
