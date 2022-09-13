@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 export default function install() {
   return (
     <Layout>
-      <div className="mx-auto flex min-h-[calc(100vh-4rem)] w-full max-w-7xl flex-col md:flex-row justify-between gap-4 p-4">
+      <div className="mx-auto flex min-h-[calc(100vh-4rem)] w-full max-w-7xl flex-col justify-between gap-4 p-4 md:flex-row">
         <div className="flex h-full w-full flex-col">
           <h1 className="pb-4 text-2xl font-bold">Installation</h1>
           <p>Installing Chills is as easy as following the below steps.</p>

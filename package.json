@@ -2,7 +2,7 @@
   "name": "chills",
   "displayName": "chills",
   "description": "Functional React TailwindCSS components.",
-  "version": "0.2.6",
+  "version": "0.3.1",
   "icon": "images/logo.png",
   "publisher": "a-smiggle",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "url": "https://github.com/a-smiggle/chills"
   },
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Snippets"

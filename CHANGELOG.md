@@ -39,3 +39,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.6]
 
 - Fix type errors
+
+## [0.3.0]
+
+- Add hero snippets.
+
+## [0.3.1]
+
+- Fix Hero V4 layout issue.

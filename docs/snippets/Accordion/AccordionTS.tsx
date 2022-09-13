@@ -53,6 +53,7 @@ export default function AccordionTS({ data }: { data: AccordionData[] }) {
       className={`w-full ${STYLES.main.maxWidth} ${STYLES.main.shape} ${STYLES.main.border} ${STYLES.main.color} ${STYLES.main.text}`}
     >
       {data.map((item) => {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         const [open, setOpen] = useState(false);
         return (
           <React.Fragment key={item.title}>

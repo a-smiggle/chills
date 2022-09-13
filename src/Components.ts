@@ -266,6 +266,40 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
   ],
+  heros: [
+    {
+      title: "Hero V1",
+      prefix: "ch-heroV1",
+      file: "../docs/snippets/Hero/v1.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Hero V2",
+      prefix: "ch-heroV2",
+      file: "../docs/snippets/Hero/v2.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Hero V3",
+      prefix: "ch-heroV3",
+      file: "../docs/snippets/Hero/v3.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Hero V4",
+      prefix: "ch-heroV4",
+      file: "../docs/snippets/Hero/v4.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+  ],
   mockups: [
     {
       title: "Code Mockup",

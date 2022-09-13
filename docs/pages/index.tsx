@@ -173,7 +173,7 @@ export default function index() {
             </div>
             <h1 className="text-center">Steps</h1>
           </div>
-          <div className="md:row-span-2 flex h-full w-full flex-col justify-center rounded border-2 border-white p-4 transition-all hover:scale-110">
+          <div className="flex h-full w-full flex-col justify-center rounded border-2 border-white p-4 transition-all hover:scale-110 md:row-span-2">
             <div className="flex h-full justify-center">
               <StepsY
                 steps={[
@@ -217,7 +217,7 @@ export default function index() {
           </Link>
 
           <Link href="/snippets">
-            <div className="md:col-span-2 flex h-full w-full flex-col justify-center rounded border-2 border-white p-4 transition-all hover:scale-y-110 hover:cursor-pointer">
+            <div className="flex h-full w-full flex-col justify-center rounded border-2 border-white p-4 transition-all hover:scale-y-110 hover:cursor-pointer md:col-span-2">
               <h1 className="text-center text-3xl font-bold">More ....</h1>
             </div>
           </Link>
