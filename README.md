@@ -47,12 +47,18 @@ The current implemented components and their prefixes are:
 | ch-dropdown          | Dropdown             |
 | ch-dropdownIcon      | Dropdown with Icon   |
 | ch-code              | Code Mockup          |
+| ch-footerV1          | Footer V1            |
+| ch-footerV2          | Footer V2            |
+| ch-footerV3          | Footer V3            |
+| ch-footerV4          | Footer V4            |
+| ch-footerV5          | Footer V5            |
+| ch-footerV6          | Footer V6            |
 | ch-heroV1            | Hero V1              |
 | ch-heroV2            | Hero V2              |
 | ch-heroV3            | Hero V3              |
 | ch-heroV4            | Hero V4              |
 | ch-phone             | Phone Mockup         |
-| ch-window            | Window Mockeup       |
+| ch-window            | Window Mockup        |
 | ch-windowMac         | Mac Window Mockup    |
 | ch-modal             | Modal                |
 | ch-modalLogin        | Login Modal          |

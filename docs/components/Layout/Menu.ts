@@ -85,6 +85,35 @@ const MENU = [
     ],
   },
   {
+    title: "Footers",
+    link: "",
+    icon: undefined,
+    subMenu: [
+      { title: "V1", link: "/snippets/footer_v1", icon: undefined },
+      {
+        title: "V2",
+        link: "/snippets/footer_v2",
+        icon: undefined,
+      },
+      {
+        title: "V3",
+        link: "/snippets/footer_v3",
+        icon: undefined,
+      },
+      { title: "V4", link: "/snippets/footer_v4", icon: undefined },
+      {
+        title: "V5",
+        link: "/snippets/footer_v5",
+        icon: undefined,
+      },
+      {
+        title: "V6",
+        link: "/snippets/footer_v6",
+        icon: undefined,
+      },
+    ],
+  },
+  {
     title: "Heros",
     link: "",
     icon: undefined,

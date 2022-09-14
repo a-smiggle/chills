@@ -47,3 +47,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.3.1]
 
 - Fix Hero V4 layout issue.
+
+## [0.4.0]
+
+- Add Footer snippets.
