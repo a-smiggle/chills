@@ -55,3 +55,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.5.0]
 
 - Add Carousel snippet.
+
+## [0.6.0]
+
+- Add Countdown snippets.

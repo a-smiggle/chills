@@ -78,6 +78,24 @@ const MENU = [
     subMenu: [],
   },
   {
+    title: "Countdowns",
+    link: "",
+    icon: undefined,
+    subMenu: [
+      { title: "V1", link: "/snippets/countdown_v1", icon: undefined },
+      {
+        title: "V2",
+        link: "/snippets/countdown_v2",
+        icon: undefined,
+      },
+      {
+        title: "V3",
+        link: "/snippets/countdown_v3",
+        icon: undefined,
+      },
+    ],
+  },
+  {
     title: "Dropdowns",
     link: "",
     icon: undefined,

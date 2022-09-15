@@ -45,6 +45,9 @@ The current implemented components and their prefixes are:
 | ch-iconButton        | Icon Button          |
 | ch-buttonIcon        | Button with Icon     |
 | ch-carousel          | Carousel             |
+| ch-countdownV1       | Coundown V1          |
+| ch-countdownV2       | Coundown V2          |
+| ch-countdownV3       | Coundown V3          |
 | ch-dropdown          | Dropdown             |
 | ch-dropdownIcon      | Dropdown with Icon   |
 | ch-code              | Code Mockup          |
@@ -89,6 +92,9 @@ The current implemented components and their prefixes are:
 | ch-iconButtonTS        | Icon Button          |
 | ch-buttonIconTS        | Button with Icon     |
 | ch-carouselTS          | Carousel             |
+| ch-countdownV1TS       | Coundown V1          |
+| ch-countdownV2TS       | Coundown V2          |
+| ch-countdownV3TS       | Coundown V3          |
 | ch-dropdownTS          | Dropdown             |
 | ch-dropdownIconTS      | Dropdown with Icon   |
 | ch-codeTS              | Code Mockup          |
