@@ -232,6 +232,24 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
   ],
+  carousels: [
+    {
+      title: "Carousel",
+      prefix: "ch-carousel",
+      file: "../docs/snippets/Carousel/Carousel.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "CarouselTS",
+      prefix: "ch-carouselTS",
+      file: "../docs/snippets/Carousel/CarouselTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+  ],
   dropdowns: [
     {
       title: "Dropdown",

@@ -31,6 +31,9 @@ const updateNextLessThan12Config = (config) => {
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ["images.pexels.com"],
+  },
   webpack: (config) => {
     if (isNext12(config)) {
       return updateNextGreaterThan12Config(config);

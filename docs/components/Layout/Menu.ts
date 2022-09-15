@@ -72,6 +72,12 @@ const MENU = [
     ],
   },
   {
+    title: "Carousel",
+    link: "/snippets/carousel",
+    icon: undefined,
+    subMenu: [],
+  },
+  {
     title: "Dropdowns",
     link: "",
     icon: undefined,

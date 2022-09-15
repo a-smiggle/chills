@@ -51,3 +51,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.4.0]
 
 - Add Footer snippets.
+
+## [0.5.0]
+
+- Add Carousel snippet.

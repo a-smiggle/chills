@@ -44,6 +44,7 @@ The current implemented components and their prefixes are:
 | ch-button            | Button               |
 | ch-iconButton        | Icon Button          |
 | ch-buttonIcon        | Button with Icon     |
+| ch-carousel          | Carousel             |
 | ch-dropdown          | Dropdown             |
 | ch-dropdownIcon      | Dropdown with Icon   |
 | ch-code              | Code Mockup          |
@@ -87,6 +88,7 @@ The current implemented components and their prefixes are:
 | ch-buttonTS            | Button               |
 | ch-iconButtonTS        | Icon Button          |
 | ch-buttonIconTS        | Button with Icon     |
+| ch-carouselTS          | Carousel             |
 | ch-dropdownTS          | Dropdown             |
 | ch-dropdownIconTS      | Dropdown with Icon   |
 | ch-codeTS              | Code Mockup          |
