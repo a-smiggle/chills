@@ -109,8 +109,8 @@ export default function Carousel({
           >
             {item.show ? (
               <div className="mx-auto mb-10 w-3/4 flex-col text-center">
-                <p className="text-2xl text-slate-300">{data.title}</p>
-                <p className="text-2xl text-slate-300">{data.description}</p>
+                <p className="text-2xl text-slate-300">{item.title}</p>
+                <p className="text-2xl text-slate-300">{item.description}</p>
               </div>
             ) : null}
           </div>

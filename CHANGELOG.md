@@ -59,3 +59,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.6.0]
 
 - Add Countdown snippets.
+
+## [0.6.1]
+
+- Fix type error in CarouselTS.
