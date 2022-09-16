@@ -44,6 +44,7 @@ The current implemented components and their prefixes are:
 | ch-button            | Button               |
 | ch-iconButton        | Icon Button          |
 | ch-buttonIcon        | Button with Icon     |
+| ch-bottomNav         | Bottom Nav           |
 | ch-cardV1            | Card V1              |
 | ch-cardV2            | Card V2              |
 | ch-cardV3            | Card V3              |
@@ -95,6 +96,7 @@ The current implemented components and their prefixes are:
 | ch-buttonTS            | Button               |
 | ch-iconButtonTS        | Icon Button          |
 | ch-buttonIconTS        | Button with Icon     |
+| ch-bottomNavTS         | Bottom Nav           |
 | ch-cardV1TS            | Card V1              |
 | ch-cardV2TS            | Card V2              |
 | ch-cardV3TS            | Card V3              |

@@ -68,3 +68,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Add Card snippets.
 - Fix type in Countdown snippets.
+
+## [0.8.0]
+
+- Add Bottom Nav snippets.

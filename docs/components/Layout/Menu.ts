@@ -54,6 +54,12 @@ const MENU = [
     subMenu: [],
   },
   {
+    title: "Bottom Nav",
+    link: "/snippets/bottom_nav",
+    icon: undefined,
+    subMenu: [],
+  },
+  {
     title: "Buttons",
     link: "",
     icon: undefined,

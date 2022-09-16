@@ -232,6 +232,24 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
   ],
+  bottomNavs: [
+    {
+      title: "Bottom Nav",
+      prefix: "ch-bottomNav",
+      file: "../docs/snippets/BottomNav/BottomNav.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Bottom Nav TS",
+      prefix: "ch-bottomNavTS",
+      file: "../docs/snippets/BottomNav/BottomNavTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+  ],
   cards: [
     {
       title: "Card V1",
