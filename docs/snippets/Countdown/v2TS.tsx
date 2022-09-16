@@ -38,7 +38,7 @@ export default function Countdown({ date }: { date: number }) {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 gap-4 md:grid-cols-4 text-black dark:text-slate-300">
+    <div className="grid grid-cols-2 gap-4 text-black dark:text-slate-300 md:grid-cols-4">
       <div className="relative flex h-24 w-24 flex-col items-center justify-between overflow-y-hidden p-4">
         <span
           className={`absolute top-1/2 -translate-y-1/2 pb-4 text-4xl font-semibold transition-all`}

@@ -72,6 +72,29 @@ const MENU = [
     ],
   },
   {
+    title: "Cards",
+    link: "",
+    icon: undefined,
+    subMenu: [
+      { title: "V1", link: "/snippets/card_v1", icon: undefined },
+      {
+        title: "V2",
+        link: "/snippets/card_v2",
+        icon: undefined,
+      },
+      {
+        title: "V3",
+        link: "/snippets/card_v3",
+        icon: undefined,
+      },
+      {
+        title: "V4",
+        link: "/snippets/card_v4",
+        icon: undefined,
+      },
+    ],
+  },
+  {
     title: "Carousel",
     link: "/snippets/carousel",
     icon: undefined,

@@ -38,7 +38,7 @@ export default function Countdown({ date }: { date: number }) {
   }, []);
 
   return (
-    <div className="grid md:gap-4 md:grid-cols-4 text-black dark:text-slate-300">
+    <div className="grid text-black dark:text-slate-300 md:grid-cols-4 md:gap-4">
       <div className="relative flex h-12 w-24 flex-row items-center justify-between overflow-y-hidden p-4">
         <span className={`pb-4 text-4xl font-semibold transition-all`}>
           {days}
@@ -46,7 +46,7 @@ export default function Countdown({ date }: { date: number }) {
         <h1 className="pb-4">Days</h1>
       </div>
       <div className="flex h-12 w-fit flex-row items-center justify-between p-4">
-        <div className="flex relative flex-col overflow-y-none pr-2 h-4">
+        <div className="relative flex h-4 flex-col overflow-y-hidden pr-2">
           {Array.from({ length: 24 }, (x, i) => i)
             .map((item) => (
               <span
@@ -66,7 +66,7 @@ export default function Countdown({ date }: { date: number }) {
         <h1 className="pb-4">Hours</h1>
       </div>
       <div className="flex h-12 w-fit flex-row items-center p-4">
-        <div className="flex relative flex-col overflow-y-none pr-2 h-4">
+        <div className="relative flex h-4 flex-col overflow-y-hidden pr-2">
           {Array.from({ length: 60 }, (x, i) => i)
             .map((item) => (
               <span
@@ -85,7 +85,7 @@ export default function Countdown({ date }: { date: number }) {
         <h1 className="pb-4">Minutes</h1>
       </div>
       <div className="flex h-12 w-fit flex-row items-center justify-between p-4">
-        <div className="flex relative flex-col overflow-y-none pr-2 h-4">
+        <div className="relative flex h-4 flex-col overflow-y-hidden pr-2">
           {Array.from({ length: 60 }, (x, i) => i)
             .map((item) => (
               <span

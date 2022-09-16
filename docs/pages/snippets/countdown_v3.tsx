@@ -19,7 +19,7 @@ export default function v3() {
         </ul>
         <br />
         <h2 className="py-4 text-xl font-medium">Props</h2>
-        <p>Countdown mockup takes the following props:</p>
+        <p>Countdown takes the following props:</p>
         <ul>
           <li>date: number</li>
         </ul>

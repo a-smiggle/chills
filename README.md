@@ -44,6 +44,10 @@ The current implemented components and their prefixes are:
 | ch-button            | Button               |
 | ch-iconButton        | Icon Button          |
 | ch-buttonIcon        | Button with Icon     |
+| ch-cardV1            | Card V1              |
+| ch-cardV2            | Card V2              |
+| ch-cardV3            | Card V3              |
+| ch-cardV4            | Card V4              |
 | ch-carousel          | Carousel             |
 | ch-countdownV1       | Coundown V1          |
 | ch-countdownV2       | Coundown V2          |
@@ -91,6 +95,10 @@ The current implemented components and their prefixes are:
 | ch-buttonTS            | Button               |
 | ch-iconButtonTS        | Icon Button          |
 | ch-buttonIconTS        | Button with Icon     |
+| ch-cardV1TS            | Card V1              |
+| ch-cardV2TS            | Card V2              |
+| ch-cardV3TS            | Card V3              |
+| ch-cardV4TS            | Card V4              |
 | ch-carouselTS          | Carousel             |
 | ch-countdownV1TS       | Coundown V1          |
 | ch-countdownV2TS       | Coundown V2          |

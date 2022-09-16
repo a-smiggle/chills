@@ -63,3 +63,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.6.1]
 
 - Fix type error in CarouselTS.
+
+## [0.7.0]
+
+- Add Card snippets.
+- Fix type in Countdown snippets.
