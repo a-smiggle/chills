@@ -76,3 +76,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.9.0]
 
 - Add Speed Dial Snippets.
+
+## [0.9.1]
+
+- Escape $ correctly so string literals work in snippets.

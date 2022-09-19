@@ -13,7 +13,12 @@ export default function VSCode({
   scope: string;
 }) {
   const VS_SNIPPET: SnippetType = {
-    [title]: { prefix, description, scope, body: snippet.split(/\r?\n/) },
+    [title]: {
+      prefix,
+      description,
+      scope,
+      body: snippet.replaceAll(" ${", " \\${").split(/\r?\n/),
+    },
   };
   return VS_SNIPPET;
 }

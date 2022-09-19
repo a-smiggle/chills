@@ -164,7 +164,7 @@ export default function SpeedDial({
           <div
             className={`absolute ${
               open ? "" : "scale-0 opacity-0"
-            } ${SPECIFIC} gap-2 pt-2 transition-all `}
+            } ${SPECIFIC} gap-2 pt-2 transition-all`}
           >
             {data.map((item, index) => {
               if (item.link)
