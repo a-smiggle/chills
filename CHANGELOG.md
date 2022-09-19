@@ -84,3 +84,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.10.0]
 
 - Add Timeline snippets.
+
+## [0.11.0]
+
+- Add Drawer snippet.

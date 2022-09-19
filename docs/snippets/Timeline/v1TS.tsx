@@ -42,17 +42,17 @@ export default function Timeline({ data }: { data: TimelineData[] }) {
     <ol className="border-l-2 border-black dark:border-slate-300">
       {data.map((item, index) => (
         <li key={`${index}: ${item}`}>
-          <div className="flex justify-start items-center pt-3">
-            <div className="bg-black dark:bg-slate-300 w-2 h-2 rounded-full -ml-1 mr-4"></div>
-            <p className="text-gray-500 dark:text-slate-300 text-sm">
+          <div className="flex items-center justify-start pt-3">
+            <div className="-ml-1 mr-4 h-2 w-2 rounded-full bg-black dark:bg-slate-300"></div>
+            <p className="text-sm text-gray-500 dark:text-slate-300">
               {item.date}
             </p>
           </div>
           <div className="mt-0.5 ml-4 mb-6">
-            <h4 className="text-black dark:text-white font-semibold text-xl mb-1.5">
+            <h4 className="mb-1.5 text-xl font-semibold text-black dark:text-white">
               {item.title}
             </h4>
-            <p className="text-gray-500 dark:text-slate-300 mb-3">
+            <p className="mb-3 text-gray-500 dark:text-slate-300">
               {item.body}
             </p>
             <div className="flex justify-start gap-2">{item.action}</div>

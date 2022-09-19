@@ -53,6 +53,7 @@ The current implemented components and their prefixes are:
 | ch-countdownV1       | Coundown V1          |
 | ch-countdownV2       | Coundown V2          |
 | ch-countdownV3       | Coundown V3          |
+| ch-drawer            | Drawer               |
 | ch-dropdown          | Dropdown             |
 | ch-dropdownIcon      | Dropdown with Icon   |
 | ch-code              | Code Mockup          |
@@ -108,6 +109,7 @@ The current implemented components and their prefixes are:
 | ch-countdownV1TS       | Coundown V1          |
 | ch-countdownV2TS       | Coundown V2          |
 | ch-countdownV3TS       | Coundown V3          |
+| ch-drawerTS            | Drawer               |
 | ch-dropdownTS          | Dropdown             |
 | ch-dropdownIconTS      | Dropdown with Icon   |
 | ch-codeTS              | Code Mockup          |

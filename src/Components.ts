@@ -384,6 +384,24 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
   ],
+  drawers: [
+    {
+      title: "Drawer",
+      prefix: "ch-drawer",
+      file: "../docs/snippets/Drawer/Drawer.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Drawer TS",
+      prefix: "ch-drawerTS",
+      file: "../docs/snippets/Drawer/DrawerTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+  ],
   dropdowns: [
     {
       title: "Dropdown",

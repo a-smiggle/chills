@@ -125,6 +125,10 @@ const MENU = [
     ],
   },
   {
+    title: "Drawer",
+    link: "/snippets/drawer",
+  },
+  {
     title: "Dropdowns",
     link: "",
     icon: undefined,
