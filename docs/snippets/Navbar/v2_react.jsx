@@ -129,7 +129,7 @@ export default function Navbar() {
                 className={`${DROPDOWN_STYLES.menuItem.color} ${
                   DROPDOWN_STYLES.menuItem.shape
                 } ${DROPDOWN_STYLES.menuItem.base} ${
-                  pathname.includes(item.link)
+                  pathname === item.link
                     ? DROPDOWN_STYLES.menuItem.textColorActive
                     : DROPDOWN_STYLES.menuItem.textColor
                 }`}
@@ -182,7 +182,7 @@ export default function Navbar() {
               href={item.link}
               key={`mobileMenu: ${item.title}`}
               className={
-                pathname.includes(item.link)
+                pathname === item.link
                   ? STYLES.mobileLinkActive
                   : STYLES.mobileLink
               }
@@ -214,9 +214,7 @@ export default function Navbar() {
                   return (
                     <a
                       className={
-                        pathname.includes(item.link)
-                          ? STYLES.linkActive
-                          : STYLES.link
+                        pathname === item.link ? STYLES.linkActive : STYLES.link
                       }
                       href={item.link}
                       key={`menu: ${item.title}`}
@@ -256,7 +254,7 @@ export default function Navbar() {
             return (
               <a
                 className={
-                  pathname.includes(item.link)
+                  pathname === item.link
                     ? STYLES.mobileLinkActive
                     : STYLES.mobileLink
                 }

@@ -68,7 +68,7 @@ export default function Sidenav() {
             <Link key={`Sidebar: ${item.title}`} href={item.link}>
               <a
                 className={
-                  pathname.includes(item.link) ? STYLES.itemActive : STYLES.item
+                  pathname === item.link ? STYLES.itemActive : STYLES.item
                 }
               >
                 <span className="mx-4 flex items-center gap-2 text-lg font-normal">
@@ -97,7 +97,7 @@ export default function Sidenav() {
             <Link key={`Sidebar: ${item.title}`} href={item.link}>
               <a
                 className={
-                  pathname.includes(item.link) ? STYLES.itemActive : STYLES.item
+                  pathname === item.link ? STYLES.itemActive : STYLES.item
                 }
               >
                 <span className="mx-4 flex items-center gap-2 text-lg font-normal">

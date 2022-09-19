@@ -88,3 +88,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.11.0]
 
 - Add Drawer snippet.
+
+## [0.11.1]
+
+- Fix link highlighting in Navbars and Sidebars.
