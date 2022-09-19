@@ -85,7 +85,7 @@ function BottomNav({
     <div
       className={`${
         absolute ? "absolute" : "fixed"
-      } bottom-0 left-0 right-0 flex flex-row justify-around items-center h-16 w-full bg-white dark:bg-slate-800 text-black dark:text-slate-300`}
+      } inset-x-0 bottom-0 flex h-16 w-full flex-row items-center justify-around bg-white text-black dark:bg-slate-800 dark:text-slate-300`}
     >
       {data.map((item) => {
         if (item.action)
@@ -93,10 +93,10 @@ function BottomNav({
             <div
               key={item.title}
               title={item.title}
-              className="w-full flex justify-center border-2 border-transparent hover:border-t-orange-300 py-2 hover:text-orange-300 transition-all active:scale-90"
+              className="flex w-full justify-center border-2 border-transparent py-2 transition-all hover:border-t-orange-300 hover:text-orange-300 active:scale-90"
             >
               <button
-                className="w-full flex justify-center"
+                className="flex w-full justify-center"
                 onClick={item.action}
               >
                 {item.icon}
@@ -107,11 +107,11 @@ function BottomNav({
           <div
             key={item.title}
             title={item.title}
-            className={`w-full cursor-pointer border-2 border-transparent hover:border-t-orange-300 py-2 hover:text-orange-300 transition-all active:scale-90 ${
+            className={`w-full cursor-pointer border-2 border-transparent py-2 transition-all hover:border-t-orange-300 hover:text-orange-300 active:scale-90 ${
               item.active ? "border-t-orange-300 text-orange-300" : ""
             }`}
           >
-            <a href={item.link} className="w-full flex justify-center">
+            <a href={item.link} className="flex w-full justify-center">
               <button>{item.icon}</button>
             </a>
           </div>

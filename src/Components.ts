@@ -664,6 +664,24 @@ const Components: ComponentType = {
       scope: BASE_SCOPE,
     },
   ],
+  speeddials: [
+    {
+      title: "Speed Dial",
+      prefix: "ch-speedDial",
+      file: "../docs/snippets/SpeedDial/SpeedDial.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Speed Dial TS",
+      prefix: "ch-speedDialTS",
+      file: "../docs/snippets/SpeedDial/SpeedDialTS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+  ],
   spinners: [
     {
       title: "Spinner",

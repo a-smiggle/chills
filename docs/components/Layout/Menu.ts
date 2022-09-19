@@ -244,6 +244,12 @@ const MENU = [
     subMenu: [{ title: "V1", link: "/snippets/sidenav_v1", icon: undefined }],
   },
   {
+    title: "Speed Dial",
+    link: "/snippets/speed_dial",
+    icon: undefined,
+    subMenu: [],
+  },
+  {
     title: "Spinner",
     link: "/snippets/spinner",
     icon: undefined,

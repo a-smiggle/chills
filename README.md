@@ -72,6 +72,7 @@ The current implemented components and their prefixes are:
 | ch-modal             | Modal                |
 | ch-modalLogin        | Login Modal          |
 | ch-progress          | Progress             |
+| ch-speedDial         | Speed Dial           |
 | ch-spinner           | Spinner              |
 | ch-stepsX            | Steps X (Horizontal) |
 | ch-stepsY            | Steps Y (Vertical)   |
@@ -111,6 +112,7 @@ The current implemented components and their prefixes are:
 | ch-modalTS             | Modal                |
 | ch-modalLoginTS        | Login Modal          |
 | ch-progressTS          | Progress             |
+| ch-speedDialTS         | Speed Dial           |
 | ch-spinnerTS           | Spinner              |
 | ch-stepsXTS            | Steps X (Horizontal) |
 | ch-stepsYTS            | Steps Y (Vertical)   |

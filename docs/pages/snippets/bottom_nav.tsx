@@ -36,7 +36,7 @@ export default function bottomNav() {
         <br />
         Example: An example of the usage is provided in the snippet.
         <h2 className="py-4 text-xl font-medium">Preview</h2>
-        <div className="relative w-1/2 h-20">
+        <div className="relative h-20 w-1/2">
           <BottomNav
             absolute
             data={[

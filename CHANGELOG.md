@@ -72,3 +72,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.8.0]
 
 - Add Bottom Nav snippets.
+
+## [0.9.0]
+
+- Add Speed Dial Snippets.
