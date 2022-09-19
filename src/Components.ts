@@ -768,6 +768,40 @@ const Components: ComponentType = {
       scope: TS_SCOPE,
     },
   ],
+  timelines: [
+    {
+      title: "Timeline V1",
+      prefix: "ch-timelineV1",
+      file: "../docs/snippets/Timeline/v1.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Timeline V1 TS",
+      prefix: "ch-timelineV1TS",
+      file: "../docs/snippets/Timeline/v1TS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+    {
+      title: "Timeline V2",
+      prefix: "ch-timelineV2",
+      file: "../docs/snippets/Timeline/v2.jsx",
+      body: undefined,
+      description: "",
+      scope: BASE_SCOPE,
+    },
+    {
+      title: "Timeline V2 TS",
+      prefix: "ch-timelineV2TS",
+      file: "../docs/snippets/Timeline/v2TS.tsx",
+      body: undefined,
+      description: "",
+      scope: TS_SCOPE,
+    },
+  ],
   tooltips: [
     {
       title: "Tooltip",

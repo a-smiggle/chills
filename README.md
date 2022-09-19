@@ -78,6 +78,8 @@ The current implemented components and their prefixes are:
 | ch-stepsY            | Steps Y (Vertical)   |
 | ch-tabs              | Tabs                 |
 | ch-tabsVertical      | Tabs Vertical        |
+| ch-timelineV1        | Timeline V1          |
+| ch-timelineV2        | Timeline V2          |
 | ch-tooltip           | Tooltip              |
 
 ### Standard TS
@@ -118,6 +120,8 @@ The current implemented components and their prefixes are:
 | ch-stepsYTS            | Steps Y (Vertical)   |
 | ch-tabsTS              | Tabs                 |
 | ch-tabsVerticalTS      | Tabs Vertical        |
+| ch-timelineV1TS        | Timeline V1          |
+| ch-timelineV2TS        | Timeline V2          |
 | ch-tooltip             | Tooltip              |
 
 ### React

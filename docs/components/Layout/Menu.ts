@@ -278,6 +278,19 @@ const MENU = [
     ],
   },
   {
+    title: "Timeline",
+    link: "",
+    icon: undefined,
+    subMenu: [
+      { title: "V1", link: "/snippets/timeline_v1", icon: undefined },
+      {
+        title: "V2",
+        link: "/snippets/timeline_v2",
+        icon: undefined,
+      },
+    ],
+  },
+  {
     title: "Tooltips",
     link: "/snippets/tooltip",
     icon: undefined,
